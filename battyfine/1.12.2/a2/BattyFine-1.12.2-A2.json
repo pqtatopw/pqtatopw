@@ -1,0 +1,17 @@
+{
+  "id": "BattyFine-1.12.2-A2",
+  "inheritsFrom": "1.12.2",
+  "time": "2019-03-04T10:57:13-06:00",
+  "releaseTime": "2019-03-04T10:57:13-06:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "optifine:OptiFine:1.12.2_HD_U_E3"
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}  --tweakClass optifine.OptiFineTweaker"
+}
